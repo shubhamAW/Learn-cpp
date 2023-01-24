@@ -1,0 +1,27 @@
+What is a computer memory?
+- A computer memory is a hardware component installed on a motherboard.
+- It works in unison with a microprocessor.
+- It is made up of several storage units.
+- Each storage unit, a.k.a. memory location, provides a space to a byte.
+
+What are KB, MB, GB?
+- They are the units used to measure the size of memory.
+- They are also used to measure size of files and external storage.
+
+  KB stands for Kilo Bytes
+  MB stands for Mega Bytes
+  GB stands for Giga Bytes
+  TB stands for Tera Bytes
+  PB stands for Peta Bytes
+  EB stands for Exa Bytes
+  ZB stands for Zeta Bytes
+  YB stands for Yotta Bytes
+
+  1024 bytes = 1 KB
+  1024 KBs = 1 MB
+  1024 MBs = 1 GB
+  1024 GBs = 1 TB
+  1024 TBs = 1 PB
+  1024 PBs = 1 EB
+  1024 EBs = 1 ZB
+  1024 ZBs = 1 YB

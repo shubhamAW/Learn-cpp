@@ -1,0 +1,13 @@
+Difference between C and C++ Input Output
+
+1. In C, we need to include stdio.h
+   In C++, we need to include iostream
+
+2. scanf_s and printf are functions
+   cin and cout are objects
+
+3. For scanf_s, printf respective format specifier need to be mentioned
+   No such need in case of cin and cout.
+
+4. Address of the variable need to be passed to scan_f.
+   No such need in case of cin.

@@ -1,0 +1,22 @@
+1. Write a program to convert speed given in kilometers per hour to miles per hour.
+   Sample Input:
+   Input speed in Km/hr: 60
+
+   Sample Output:
+   Speed in miles per hour is: 37.2823
+
+2. Write a program to convert the temperature given in Celsius to Fahrenheit.
+   Sample Input:
+   Input temperature in Celsius: 37.5
+
+   Sample Output:
+   Temperature in Fahrenheit is: 99.5
+
+3. Write a program in C++ to calculate effective resistance of 3 resistors connected in parallel configuration.
+   Sample Input:
+   Input Resistance 1: 2
+   Input Resistance 2: 5
+   Input Resistance 3: 10
+
+   Sample Output:
+   Total Effective Resistance is 1.25 ohms.

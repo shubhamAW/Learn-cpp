@@ -1,0 +1,89 @@
+Why do we need numbers?
+- We need numbers to represent count.
+
+What is numbering or numeral system?
+- A numbering system is a system of symbols used to represent numbers.
+
+Which are the most prevalent numbering systems used in programming?
+- Decimal (most frequently used)
+- Hexadecimal (occasionally used)
+- Octal (less frequently used)
+- Binary (less frequently used)
+
+List the symbols that make up Binary, Octal, Decimal, Hexadecimal Numbering Systems.
+
+Value          Binary		  Octal         Decimal        Hexadecimal
+--------------------------------------------------------------------------
+Zero			  0				0			  0					0
+One				  1				1			  1					1
+Two								2			  2					2
+Three							3			  3					3
+Four			   				4			  4					4
+Five			   				5			  5					5
+Six				   				6			  6					6
+Seven			   				7			  7					7
+Eight			   							  8					8
+Nine			   							  9					9
+Ten																A
+Eleven															B
+Twelve															C
+Thirteen														D
+Fourteen														E
+Fifteen															F
+
+Which is the numbering system used in computer systems?
+- Binary
+
+How is number such as 239 represented in binary?
+- Using place value technique.
+
+How is character such as 'A' is represented in binary?
+- Using character code.
+- A character code is a binary code assigned to a character.
+
+What is a character set?
+- A character Set is a list of characters recognized by the computer.
+
+What are ASCII, ANSI, UNICODE?
+- These are standard character sets known and followed across the world.
+
+What is bit?
+- Bit is a shortform of BInary digiT.
+- The digits of binary numbering system such as 0 and 1 are known as binary digits.
+- 0 of binary numbering system is known as binary digit, so as 1 of binary numbering system.
+
+What is nibble?
+- A group of 4 bits is known as nibble.
+
+What is byte?
+- A group of 8 bits is known as byte.
+
+What is word?
+- There is no definitive answer.
+- In common usage, a "processor word" refers to the size of a processor register.
+  In simple cases, a 32 bit processor will have a 32 bit "word" size. A 64 bit processor
+  will have a 64 bit "word" size.
+- In Intel docs, a "Word" is 16 bits.
+  A "Doubleword" is 32 bits.
+  A "Quadword" is 64 bits. 
+
+What are KB, MB, GB?
+- They are the units used to measure size of memory/files/external storage etc.
+
+  KB stands for Kilo Bytes
+  MB stands for Mega Bytes
+  GB stands for Giga Bytes
+  TB stands for Tera Bytes
+  PB stands for Peta Bytes
+  EB stands for Exa Bytes
+  ZB stands for Zeta Bytes
+  YB stands for Yotta Bytes
+
+  1024 bytes = 1 KB
+  1024 KBs = 1 MB
+  1024 MBs = 1 GB
+  1024 GBs = 1 TB
+  1024 TBs = 1 PB
+  1024 PBs = 1 EB
+  1024 EBs = 1 ZB
+  1024 ZBs = 1 YB
