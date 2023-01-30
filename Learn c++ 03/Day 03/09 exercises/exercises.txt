@@ -1,0 +1,21 @@
+1. Write a program to check if a given number is prime or not.
+   Sample Input:
+   Input a number to check prime or not: 13
+
+   Sample Output:
+   The entered number is a prime number.
+
+2. Write a program to calculate the factorial of a number.
+   Sample Input:
+   Input a number to find the factorial: 5
+
+   Sample output:
+   The factorial of the given number is: 120 
+
+3. Write a program to calculate the Greatest Common Divisor (GCD) of two numbers.
+   Sample Input:
+   Input the first number: 25
+   Input the second number: 15
+
+   Sample Output:
+   The Greatest Common Divisor is: 5

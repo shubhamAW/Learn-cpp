@@ -6,8 +6,8 @@ void main() {
 What is initialization?
 * Giving initial value to a variable at its definition is called as initialization.
 
-Can variable come into existiance without intial value?
-* Yes. But it will come into existance with garbage value.
+ Can variable come into existiance without intial value?
+*  Yes. But it will come into existance with garbage value.
 */
 
 /*

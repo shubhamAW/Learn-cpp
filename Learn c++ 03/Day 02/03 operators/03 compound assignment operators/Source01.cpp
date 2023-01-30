@@ -8,4 +8,9 @@ void main() {
 
 	int c = 3;
 	c *= a + b; // c = c * (a + b)
+
 }
+
+/*
+* Do not forgot () brackets..
+*/

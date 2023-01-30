@@ -1,0 +1,2 @@
+* extern "C" stops the function overloading.
+* 

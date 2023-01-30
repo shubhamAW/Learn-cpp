@@ -1,5 +1,5 @@
 void main() {
-	int u = 5.0;
+	int u = 5;
 }
 
 /*
