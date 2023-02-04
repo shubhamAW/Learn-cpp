@@ -1,4 +1,4 @@
-int i = -1;
+ int i=5 ;
 
 int k() {
 	return  i;

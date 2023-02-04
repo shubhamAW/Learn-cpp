@@ -16,4 +16,13 @@ int EXPIMP length(int n);
 
 int EXPIMP fibonacci(int n);
 
-int EXPIMP palindrome(int n);
+bool EXPIMP palindrome(int n );
+
+int EXPIMP findMax(int* arr, int n);
+
+int EXPIMP dow(int day, int month, int year);
+
+int EXPIMP sort(int* arr, size_t size, SortOrder sort_order = Ascending);
+
+
+

@@ -134,7 +134,10 @@
     <ClInclude Include="Header.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="10-findMax.cpp" />
+    <ClCompile Include="3-dow.cpp" />
     <ClCompile Include="5-summation.cpp" />
+    <ClCompile Include="6-sort.cpp" />
     <ClCompile Include="7-length.cpp" />
     <ClCompile Include="8-fibonacci.cpp" />
     <ClCompile Include="9-palindrome.cpp" />

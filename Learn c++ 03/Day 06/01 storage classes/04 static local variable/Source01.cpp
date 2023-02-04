@@ -16,6 +16,7 @@ void f() {
 }
 
 /*
+* 
 - Variable 'i' of 'f' is called as static local variable.
 - The lifetime of static local variable is application wide.
 - The scope however is limited to the block in which it is defined.

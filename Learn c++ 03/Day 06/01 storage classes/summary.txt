@@ -7,3 +7,4 @@ static local variable			block-wide				application-wide		global data space
 non-static global variable		application-wide		application-wide		global data space
 
 static global variable			translation unit wide	application-wide		global data space
+								( File level ).

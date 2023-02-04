@@ -6,6 +6,9 @@
 #define EXPIMP _declspec(dllimport)
 #endif
 
-int EXPIMP Add(int u, int v);
+extern "C" {
+	int EXPIMP Add(int u, int v);
 
-extern const EXPIMP double PI;
+	extern const EXPIMP double PI;
+}
+

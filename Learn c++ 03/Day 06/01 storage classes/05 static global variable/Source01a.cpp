@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-static int i = 1;
+static int i = 1; 
 
 int f();
 int k();

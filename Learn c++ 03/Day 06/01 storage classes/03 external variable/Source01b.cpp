@@ -1,3 +1,4 @@
+extern int i;
 void k() {
-	i = 15;
+	 i = 15;
 }

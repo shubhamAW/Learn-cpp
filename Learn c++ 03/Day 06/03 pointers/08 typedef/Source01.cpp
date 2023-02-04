@@ -1,5 +1,5 @@
 int main() {
-	int* p, q;
+	int *p, q;
 	typedef  int* int_ptr;
 	int_ptr r, s;
 }

@@ -6,7 +6,7 @@ int main() {
 	int result = 0;
 	result = Add(3, 2);
 	printf("%d", result);
-	printf("PI=%lf\n", PI);
+	//printf("PI=%lf\n", PI);
 
 }
 
