@@ -1,4 +1,5 @@
-#include "../practiceday11-dll/Header.h"
+#include "Header.h"
+
 
 int main() {
 	print();
