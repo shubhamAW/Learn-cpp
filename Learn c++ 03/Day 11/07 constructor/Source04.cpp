@@ -37,5 +37,6 @@ int main() {
 }
 
 /*
+- Constructor should always defined under the public access specifier.s
 - This program introduces parametric constructor.
 */
