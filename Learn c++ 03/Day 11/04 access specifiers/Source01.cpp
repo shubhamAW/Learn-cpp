@@ -37,3 +37,8 @@ int main() {
 	// a.m_radius = -5; // Error: m_radius is declared as private hence not accessible.
 	a.SetRadius(-5);
 }
+
+/*
+* Private access specifier does not permit direct access to private memeber.
+* 
+*/

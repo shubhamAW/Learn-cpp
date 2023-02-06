@@ -31,3 +31,9 @@ int main() {
 	a.SetRadius(10);
 	a.Print();
 }
+
+/*
+* - If data memeber and parameter is of the same name . then this pointer 
+* can be distinguish data member from parameter.
+*  
+*/

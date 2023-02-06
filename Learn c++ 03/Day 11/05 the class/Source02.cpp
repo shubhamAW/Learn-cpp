@@ -3,7 +3,7 @@
 #include <stdexcept>
 using namespace std;
 
-struct Circle {
+class Circle {
 private:
 	int m_radius;
 public:
