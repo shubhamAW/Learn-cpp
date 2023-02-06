@@ -7,18 +7,18 @@ private:
     char data[100];
 public:
     Stack() {
-        top = 0;
+        top = -1;
     }
 public:
     bool Empty() {
-        if (top == 0)
+        if (top == -1)
             return true;
         else
             return false;
     }
     void Push(char ch) {
-        data[top] = ch;
-        top++;
+        data[++top] = ch;
+        
     }
 
     char Top() {
@@ -26,7 +26,7 @@ public:
     }
 
     void Pop() {
-        if (top == 0) return;
+        if (top == -1) return;
         top--;
     }
 };
