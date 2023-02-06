@@ -131,11 +131,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="1-caculateAreaCircle.cpp" />
-    <ClCompile Include="3-caculatePeriodPendulum.cpp" />
-    <ClCompile Include="5-effectiveResistance.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <ClInclude Include="Header.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
