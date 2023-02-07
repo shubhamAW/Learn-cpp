@@ -1,16 +1,25 @@
 class Integer {
+
+public:
+	Integer(int i);
+
+
 private:
 	int m_i;
-public:
-	Integer(int i) : m_i(i) {}
-public:
-	void SetI(int i) : m_i(i) {} // Error: Initialization list cannot be used with setter
 };
+
+Integer::Integer(int i):m_i(i) {
+}
 
 int main() {
 	Integer u(5);
 }
 
+
 /*
-- Initialization list can be used only with constructor.
+- Initialization list can be used to initialize non-static data members only.
+- Attempting to initialize static data member in initialization result in 
+	compilation error.
+- To initialize Data members, Between initialization list and body of  constructor 
+	Always prefer initialization List.
 */

@@ -1,7 +1,7 @@
 #include "Circle.h"
 
 // definition of static data member
-const double Circle::PI = 3.1428;
+const double Circle::PI = 3.1428;   
 
 Circle::Circle(int r) : m_r(r) {}
 

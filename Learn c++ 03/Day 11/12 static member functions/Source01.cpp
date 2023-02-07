@@ -1,22 +1,19 @@
-#include <iostream>
-
-class Math {
+class Calc {
 public:
-	static double PI() {
-		return 3.14;
-	}
+	 int Add(int u, int v) ;
+
 };
 
+int Calc::Add(int u, int v)  {
+	return u + v;
+}
+
 int main() {
-	Math m;
-	std::cout << m.PI() << std::endl;
-	std::cout << Math::PI() << std::endl;
+	Calc calc;
+	int result = calc.Add(1, 2);
+	result = Calc::Add(1, 3);//Error : You cannot call using class..
 }
 
 /*
-When there are no data members in the class,
-the size of an object is 1 byte.
-
-A static member function can be called using both
-an object and a class.
+* A non-static function can be called only using an object of the class.
 */

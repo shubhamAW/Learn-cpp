@@ -1,19 +1,23 @@
-#include <iostream>
-
-class Math {
+class Calc {
 public:
-	double PI() {
-		return 3.14;
-	}
+	static int Add(int u, int v);
+
 };
 
+int Calc::Add(int u, int v) {
+	return u + v;
+}
+
 int main() {
-	Math m;
-	std::cout << m.PI() << std::endl;
-	std::cout << Math::PI() << std::endl;
+	Calc calc;
+	int result = calc.Add(1, 2);
+	result = Calc::Add(1, 3);
 }
 
 /*
-A non-static member function can only be called using
-an object of the class.
+A static member function can only be called using both
+	object of class & class name..
+
+    When to declare member function as static?
+  When implmentation of member function doesn't depends upon data members (state variables).
 */

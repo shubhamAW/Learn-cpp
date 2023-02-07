@@ -1,4 +1,4 @@
-class A {
+class Dummy {
 public:
 	void f() {}
 	static void g() {}
@@ -8,17 +8,19 @@ public:
 		g();
 	}
 	static void k() {
-		f();
+	//	f();
 		g();
 	}
 };
 
 int main() {
-
+	Dummy dummy;
+	dummy.h();
+	Dummy::k();
+	Dummy::g();
 }
 
 /*
-A non-static member function can call both static and non-static member 
-functions.
-A static member function can call only static member function.
+A non-static member function can access both static and non-static members.
+A static member function can access only static member .
 */
