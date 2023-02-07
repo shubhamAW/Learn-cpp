@@ -5,6 +5,8 @@ using namespace std;
 
 #define SIZE 9
 
+/* run perfectly fine..*/
+
 class Clock {
 private:
     int m_hour, m_minute, m_second;

@@ -1,6 +1,6 @@
 #include <cstring>
 #include <assert.h>
-
+/*Run perfectly fine*/
 class Stack {
 private:
     int top;

@@ -1,5 +1,6 @@
 #include<assert.h>
 
+/* run perfectly fine*/
 enum SwitchState {
     OffState,
     OnState
