@@ -1,6 +1,7 @@
 #include <cstdlib>
 #include <assert.h>
 /* run perfectly fine*/
+
 class Dice
 {
 private:
