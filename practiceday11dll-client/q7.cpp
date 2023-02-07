@@ -3,9 +3,7 @@
 
 #define QUEUE_SIZE 10
 
-/* 
-* - Runs Perfectly fine..
-*/
+/*Run Perfectly Fine..*/
 
 class CircularQueue {
 private:

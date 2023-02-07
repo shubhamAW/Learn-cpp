@@ -7,13 +7,9 @@ enum SwitchState {
 };
 
 class Lamp {
-private:
-    SwitchState m_switchState;
-
 public:
-    Lamp() {
-        m_switchState = OffState;
-    }
+    Lamp(): m_switchState(OffState) { } 
+
     void SwitchOn() {
         m_switchState = OnState;
     }
@@ -25,7 +21,11 @@ public:
     SwitchState GetState() {
         return m_switchState;
     }
+
+private:
+    SwitchState m_switchState;
 };
+
 int main() {
     Lamp tableLamp;
 

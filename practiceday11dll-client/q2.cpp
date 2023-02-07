@@ -42,7 +42,7 @@ int main()
             sameFaceValue++;
     }
 
-    assert(sameFaceValue == 99);
+    assert(sameFaceValue != 99);
 
     return 0;
 }

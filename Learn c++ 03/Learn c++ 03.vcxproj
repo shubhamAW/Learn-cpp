@@ -19,7 +19,6 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Day 11\14 initialization list\Source04.cpp" />
     <ClCompile Include="Day 11\17 singleton\Source.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">

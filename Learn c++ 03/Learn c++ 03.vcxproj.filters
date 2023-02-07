@@ -18,8 +18,5 @@
     <ClCompile Include="Day 11\17 singleton\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day 11\14 initialization list\Source04.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
