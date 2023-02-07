@@ -1,7 +1,7 @@
 #include "Circle.h"
 
 int main() {
-	const Circle a = 5;
+	const Circle  a = 5;
 	int r = a.GetRadius();
 	a.Print();
 	double area = a.GetArea();

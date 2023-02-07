@@ -14,7 +14,7 @@ int Circle::GetRadius() const {
 	return m_radius;
 }
 
-void Circle::SetRadius(int radius) {
+void Circle::SetRadius(int radius) const {
 	if (radius <= 0)
 		throw std::invalid_argument("Radius must be positive number.");
 	m_radius = radius;

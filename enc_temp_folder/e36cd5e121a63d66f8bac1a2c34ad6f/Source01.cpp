@@ -13,8 +13,3 @@ int main() {
 	area = a.GetArea();
 
 }
-
-/*
-- The keyword mutable is mainly used to allow a particular data member of const object to be modified 
-  within const member function.
-*/

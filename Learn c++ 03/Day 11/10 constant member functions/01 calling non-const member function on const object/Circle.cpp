@@ -9,7 +9,7 @@ Circle::Circle(int radius) {
 	SetRadius(radius);
 }
 
-int Circle::GetRadius() {
+int Circle::GetRadius()  {
 	assert(m_radius > 0);
 	return m_radius;
 }

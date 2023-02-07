@@ -19,7 +19,12 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="Day 11\11 mutable\Circle.cpp" />
+    <ClCompile Include="Day 11\11 mutable\Source01.cpp" />
     <ClCompile Include="Day 11\17 singleton\Source.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Day 11\11 mutable\Circle.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

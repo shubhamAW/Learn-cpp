@@ -9,11 +9,13 @@ Circle::Circle(int radius) {
 	SetRadius(radius);
 }
 
+//GetRadius is const member function
 int Circle::GetRadius() const {
 	assert(m_radius > 0);
 	return m_radius;
 }
 
+//SetRadius is Non-const member function
 void Circle::SetRadius(int radius) {
 	if (radius <= 0)
 		throw std::invalid_argument("Radius must be positive number.");
@@ -28,3 +30,8 @@ double Circle::GetArea() const {
 	int radius = GetRadius();
 	return 3.14 * radius * radius;
 }
+
+/*
+* - const member function is defined & declared -> both are necessary..
+* 
+*/
