@@ -7,7 +7,7 @@ public:
 	int Get() const;
 	void Set(int i);
 public:
-	Integer operator+(const Integer &obj);
+	Integer operator+(const Integer &obj) const;
 private:
 	int m_i;
 };

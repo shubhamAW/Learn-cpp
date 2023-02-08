@@ -2,6 +2,7 @@
 
 Integer::Integer(int i) : m_i(i) {}
 
+
 int Integer::Get() const {
 	return m_i;
 }

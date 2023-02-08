@@ -21,7 +21,7 @@ void Integer::Set(int i) {
 	*m_pi = i;
 }
 
-Integer Integer::operator=(const Integer& obj) {
+Integer& Integer::operator=(const Integer& obj) {
 	if (this != &obj)
 		*m_pi = *obj.m_pi;
 	return *this;

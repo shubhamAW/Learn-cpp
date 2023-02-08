@@ -2,8 +2,8 @@
 #include "Integer.h"
 
 int main() {
-	Integer a(1);
-	Integer b = a;
+	Integer a(1); //Do step into here and check which constructor is called?
+	Integer b = a; //Do step into the here and check which constructor called?
 	assert(a.Get() == b.Get());
 }
 

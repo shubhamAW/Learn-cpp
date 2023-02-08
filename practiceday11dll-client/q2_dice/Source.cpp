@@ -1,27 +1,5 @@
-#include <cstdlib>
-#include <assert.h>
-
 #include "Dice.h"
-/* run perfectly fine*/
-
-class Dice
-{
-private:
-    int m_faceValue;
-public:
-
-    void Roll(){
-        m_faceValue = (rand() % 6) + 1;
-    }
-    //before return, it will ensure that facevalue is between 1 to 6
-    int GetFaceValue() const {
-        return m_faceValue;
-    }
-
-
-};
-
-
+#include<assert.h>
 
 int main()
 {

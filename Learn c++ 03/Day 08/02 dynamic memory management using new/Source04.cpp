@@ -1,5 +1,5 @@
 int main() {
-	int* pn;
+	int* pn=nullptr;
 
 	delete pn; // it's ok to pass null pointer to delete operator
 

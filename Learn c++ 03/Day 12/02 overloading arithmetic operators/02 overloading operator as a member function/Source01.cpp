@@ -2,7 +2,8 @@
 #include "Integer.h"
 
 int main() {
-	Integer u(5), v(10), w;
+	const Integer u(5), v(10);
+	Integer w;
 	w = u + v; // w = u + v; executed as w = u.operator+(v);
 }
 
@@ -16,7 +17,7 @@ Hence we cannot add new operators i.e. we can overload existing operators
 only. There are few operators such as ::, ., sizeof, typeid, ?: which cannot
 be overloaded. Most of the operators can be implemented either in member
 function format or global function format. There are few operators
-however for ex. (), [], (casting) etc. have to be implemented in member
+however for ex. (), [], (casting) ,= etc. have to be implemented in member
 function format only. Wherever global function format is supported, it's 
 recommended to use global function format.
 */

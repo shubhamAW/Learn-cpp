@@ -1,13 +1,15 @@
 class Dummy {
 public:
+	Dummy();
 	~Dummy();
 };
-
+Dummy::Dummy(){}
 Dummy::~Dummy() {}
 
 int main() {
 	Dummy u;
-	u.~Dummy();
+	u.Dummy(); // constructor never will be called explicitly...
+	u.~Dummy(); // ok.. explicit call to destructor..
 }
 
 /*

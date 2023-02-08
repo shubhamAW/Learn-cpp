@@ -1,30 +1,5 @@
 #include<assert.h>
-
-/* run perfectly fine*/
-enum SwitchState {
-    OffState,
-    OnState
-};
-
-class Lamp {
-public:
-    Lamp(): m_switchState(OffState) { } 
-
-    void SwitchOn() {
-        m_switchState = OnState;
-    }
-    void SwitchOff() {
-        m_switchState = OffState;
-    }
-
-public:
-    SwitchState GetState() const {
-        return m_switchState;
-    }
-
-private:
-    SwitchState m_switchState;
-};
+#include"Rectangle.h"
 
 int main() {
     Lamp tableLamp;

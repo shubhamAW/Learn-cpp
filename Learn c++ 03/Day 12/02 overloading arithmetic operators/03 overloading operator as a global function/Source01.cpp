@@ -3,5 +3,5 @@
 
 int main() {
 	Integer u(5), v(10), w;
-	w = u + v; // w = u + v; executed as w = u.operator+(v);
+	w = u + v; // w = u + v; executed as w = operator+(u,v);
 }

@@ -7,8 +7,9 @@ int main() {
 	assert(a.Get() == b.Get());
 
 	Integer c(10);
-	b = c;
-	assert(b.Get() == c.Get());
+	Integer d(20);
+	c = d;
+	assert(c.Get() == d.Get());
 }
 
 /*
