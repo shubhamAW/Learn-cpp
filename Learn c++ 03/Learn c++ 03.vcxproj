@@ -20,6 +20,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Day 11\17 singleton\Source.cpp" />
+    <ClCompile Include="Day 14\12 upcasting downcasting\Source03.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>

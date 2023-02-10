@@ -18,13 +18,6 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="q6_stack\Source.cpp" />
-    <ClCompile Include="q6_stack\Stack.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="q6_stack\Stack.h" />
-  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
