@@ -18,7 +18,7 @@
     <ClCompile Include="Day 11\17 singleton\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Day 14\12 upcasting downcasting\Source03.cpp">
+    <ClCompile Include="Day 14\15 copy constructor, overloaded assignment operator and inheritance\Source03.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

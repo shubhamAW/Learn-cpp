@@ -5,17 +5,17 @@ public:
 
 class Triangle : public Shape {
 public:
-	virtual void Draw() const {}
+	virtual void Draw() const override{}
 };
 
 class Rectangle : public Shape {
 public:
-	virtual void Draw() const {}
+	virtual void Draw() const override{}
 };
 
 class Oval : public Shape {
 public:
-	virtual void Draw() const {}
+	virtual void Draw() const override{}
 };
 
 void Draw(Shape shape) { // Note shape is no more a reference. 

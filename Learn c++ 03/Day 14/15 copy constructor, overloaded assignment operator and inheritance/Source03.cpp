@@ -47,9 +47,9 @@ public:
 };
 
 int main() {
-	Derived u; // invokes compiler supplied default constructor of Derived class
-	Derived v = u; // invokes compiler supplied copy constructor of Derived class
-	v = u; // invokes compiler supplied copy assignment operator of Derived class
+	Derived u; // invokes derived default constructor of Derived class
+	Derived v = u; // invokes derived copy constructor of Derived class
+	v = u; // invokes derived copy assignment operator of Derived class
 }
 
 

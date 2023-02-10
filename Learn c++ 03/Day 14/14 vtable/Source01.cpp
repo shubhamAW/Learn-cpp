@@ -1,7 +1,7 @@
 class Base {
 public:
 	virtual void f() {}
-	virtual void g() {}
+    virtual void g() {}
 	void h() {}
 private:
 	int m_i;
@@ -10,7 +10,7 @@ private:
 class Derived : public Base {
 public:
 	void f() override {}
-	virtual void k() {} // Note locals window doesn't show 'k' in vtable view of Derived class. However it is present.
+	void k() {} // Note locals window doesn't show 'k' in vtable view of Derived class. However it is present.
 private:
 	int m_j;
 };
@@ -19,6 +19,7 @@ int main() {
 	Base u, v;
 
 	Derived x, y;
+
 
 	Base* pbase = nullptr;
 
@@ -34,4 +35,7 @@ int main() {
 /*
 - Note _vfptr is per object and vtable is per class.
 - vtable is stored in constant memory.
+
+- vtable contains addresses of virtual functions only.
+
 */
