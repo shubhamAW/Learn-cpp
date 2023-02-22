@@ -27,8 +27,8 @@ DummySMP::~DummySMP() {
 Dummy* DummySMP::operator->() { return m_pobj; }
 
 void G() {
-	DummySMP obj(new Dummy); // 'obj' is a smart pointer
-	obj.operator->()->F();
+	DummySMP obj(new dummySMP); // 'dummySMP' is a smart pointer
+	dummySMP.operator->()->F();
 }
 
 int main() {

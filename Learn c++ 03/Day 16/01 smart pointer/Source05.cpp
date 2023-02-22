@@ -5,9 +5,13 @@ using namespace std;
 class Dummy {
 public:
 	void F();
+private:
+	int m_i;
 };
 
-void Dummy::F() {}
+void Dummy::F() {
+	m_i = 0;
+}
 
 void G() {
 	unique_ptr<Dummy> u(new Dummy);
@@ -20,6 +24,7 @@ void G() {
 
 	unique_ptr<Dummy> x;
 	x.swap(u); // Its possible to transfer ownership from one unique_ptr object to another unique_ptr object
+
 }
 
 int main() {

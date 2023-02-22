@@ -18,5 +18,8 @@
     <ClCompile Include="Day 11\17 singleton\Source.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Day 16\01 smart pointer\Source06.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

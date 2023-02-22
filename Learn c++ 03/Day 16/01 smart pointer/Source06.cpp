@@ -7,7 +7,8 @@ public:
 	void F();
 };
 
-void Dummy::F() {}
+void Dummy::F() {
+}
 
 void G() {
 	shared_ptr<Dummy> u(new Dummy);
@@ -21,6 +22,7 @@ void G() {
 	shared_ptr<Dummy> x;
 	x.swap(u); // Its possible to transfer ownership from one shared_ptr object to another shared_ptr object
 			   // Now w and v will be the two owners of the object
+
 
 }
 
