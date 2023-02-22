@@ -1,0 +1,5 @@
+digraph {
+node [shape=record]
+obj [label="{<x>x_ | <y>y_}"]
+&obj:x -> obj:y [style=dotted]
+}

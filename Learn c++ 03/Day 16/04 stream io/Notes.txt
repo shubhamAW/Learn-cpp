@@ -1,0 +1,13 @@
+A file can be classified either as text or binary file.
+
+Files such as source code files, txt files are text files.
+
+Files such as music files, movie files, images, objs, exes are binary files.
+
+When file is opened in text mode and if stream io objects read character with 
+character code 26 then that character is treated as EOF character. Also a sequence of
+character codes 13 (CR) and 10 (LF) is read as a single character.
+
+This is not so when file is opened in binary mode i.e. character with character code
+26 is not treated as EOF character and sequence of character 13 and 10 is not
+read as single character.

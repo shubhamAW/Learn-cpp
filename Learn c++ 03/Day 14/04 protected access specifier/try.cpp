@@ -3,7 +3,8 @@ using namespace std;
 
 class Base {
 public:
-	 Base(int i) : m_i(i) { }
+	Base(){}
+	Base(int i) : m_i(i) { }
 	~Base() {
 
 	}
@@ -13,8 +14,8 @@ protected:
 
 class Derived : public Base {
 public:
-	Derived(int i, int j) : Base(i), m_j(j) {
-
+	Derived(int i, int j) : m_j(j) {
+		m_i = i;
 	}
 	~Derived() {
 
@@ -41,12 +42,12 @@ int main() {
 					Self			Derived				Non-member
 
 	private			Available		Not-available		Not-available
-	
+
 	protected		Available		Available			Not-available
-	
+
 	public			Available		Available			Available
 
 	IMP : We avoid declaring data members protected, as that would unable
-	us to make changes to the data members in future. We may declare 
+	us to make changes to the data members in future. We may declare
 	member functions protected.
 */

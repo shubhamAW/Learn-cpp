@@ -16,6 +16,12 @@ Person::~Person() {
 	m_pname = nullptr;
 }
 
+Person::Person(const Person& other) {
+	size_t size = strlen(other.m_pname);
+	m_pname = new char[size+ 1];
+	strcpy_s(m_pname,size+1, other.m_pname);
+	m_age = other.m_age;
+}
 
 int Person::GetAge() const {
 	assert(m_age > 0 && m_age < m_maxAge);
@@ -39,14 +45,21 @@ void Person::SetName(const char* pname)  {
 	if (pname == nullptr) {
 		throw std::invalid_argument("Name is not valid");
 	}
+	if (m_pname != nullptr) {
+		delete[] m_pname;
+		m_pname = nullptr;
+	}
 	int size = 0;
 	size = strlen(pname);
 	m_pname = new char[size+1];
 	strcpy_s(m_pname,size+1, pname);
 }
 
-Person& Person::operator=(const Person& p) {
-	this->m_age = p.m_age;
-	this->m_pname = p.m_pname;
+Person& Person::operator=(const Person& other) {
+	if (this != &other) {
+		//delete[] m_pname;
+		SetName(other.m_pname);
+		SetAge(other.m_age);
+	}
 	return *this;
 }

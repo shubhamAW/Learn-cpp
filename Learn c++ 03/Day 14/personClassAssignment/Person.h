@@ -2,8 +2,9 @@
 class Person {
 public:
 	Person(const char* pname, int age);
-	Person(const Person& obj);
+	Person(const Person& other);
 	~Person();
+	Person& operator=(const Person& other);
 public:
 	int GetAge() const;
 	const char* GetName() const;

@@ -15,7 +15,8 @@ public:
 	}
 private:
 	int m_i;
-};
+}
+
 
 class Derived : public Base {
 public:
@@ -41,6 +42,6 @@ int main() {
 }
 
 /*
-- The Derived::Print is overriding Base::Print.
-- This is called function overriding.
+	- The Derived::Print is overriding Base::Print.
+	- This is called function overriding.
 */
