@@ -27,6 +27,7 @@ public:
 	Circle(int radius) {
 		SetRadius(radius);
 	}
+
 public:
 	void SetRadius(int radius) {
 		if (radius < 0)

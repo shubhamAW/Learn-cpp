@@ -26,6 +26,7 @@ public:
 		: Exception(101, "Radius must be +ve number.", pfunctionname, lineno) {}
 };
 
+
 class Circle {
 private:
 	int m_radius;

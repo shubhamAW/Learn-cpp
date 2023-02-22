@@ -14,7 +14,6 @@ Integer::Integer(int i) : m_i(i) {}
 int main() {
 	Integer u(10);
 	cout << u.m_i << endl;
-	cout << u << endl;
 }
 
 /*

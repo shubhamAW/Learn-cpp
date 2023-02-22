@@ -11,7 +11,7 @@ int main() {
 		return 0;
 	}
 
-	const size_t size = 100;
+	const size_t size = 10;
 	char buffer[size] = { 0 };
 	while (!fin.eof()) {
 		fin.getline(buffer, size, '\n');

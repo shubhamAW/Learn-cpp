@@ -2,6 +2,10 @@ A file can be classified either as text or binary file.
 
 Files such as source code files, txt files are text files.
 
+when file is opened in text mode, character code 26 has a special meaning it 
+indicate EOF (end of file)
+Also a sequence of character code 13 (CR) and 10 (LF) is read as a single character.
+
 Files such as music files, movie files, images, objs, exes are binary files.
 
 When file is opened in text mode and if stream io objects read character with 

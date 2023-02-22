@@ -1,19 +1,9 @@
-#if !defined(XCLASS)
-#define XCLASS
-
-class X {
+class Dummy {
 
 };
-#endif
 
-#if !defined(XCLASS)
-#define XCLASS
-
-class X {
-
-};
-#endif
 
 int main() {
-	X a;
+	int;
+
 }

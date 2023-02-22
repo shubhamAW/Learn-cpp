@@ -14,7 +14,7 @@ public:
 int main() {
 	try {
 		Circle a;
-		a.SetRadius(-5);
+		a.SetRadius(5);
 	}
 	catch (int e) {
 		std::cout << e << std::endl;

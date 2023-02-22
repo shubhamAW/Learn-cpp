@@ -8,7 +8,7 @@ struct Point {
 };
 
 int main() {
-	ifstream fin("point.txt", ios::in | ios::binary);
+	ifstream fin("point.bin", ios::in | ios::binary);
 	if (!fin) {
 		cout << "File is not opened. Exiting the application.";
 		return 0;

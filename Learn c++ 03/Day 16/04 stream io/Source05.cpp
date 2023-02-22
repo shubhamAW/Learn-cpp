@@ -10,7 +10,7 @@ struct Point {
 int main() {
 	Point p = { 1, 2 };
 
-	ofstream fout("point.txt", ios::out | ios::binary);
+	ofstream fout("point.bin", ios::out | ios::binary);
 	if (!fout) {
 		cout << "File is not opened. Exiting the application.";
 		return 0;
